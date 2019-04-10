@@ -1,0 +1,12 @@
+Dokumentacja aplikacji "Wodna ankieta"
+Aplikacja pozwala na dodanie publiczne ankiety oraz przegl¹danie bie¿¹cych ankiet. Pozytywne wyra¿enie zgody na odpowiedŸ zwrotn¹ pozwala na uzyskanie konsultacji nt. iloœci wypitej wody.
+
+1. Przypadki u¿ycia
+- dodanie ankiety
+- przegl¹danie dodanej ankiety
+- przegl¹danie wszystkich ankiet znajduj¹cych siê w aplikacji
+
+2. Interfejs
+- formularz dodania ankiety sk³ada siê z piêciu pól: imiê, numer telefonu, adres email,  iloœæ wypitej wody w ci¹gu dnia, pole zgody na konsultacjê. Ka¿de z pól musi byæ wype³nione, dodatkowo pola adres email, numer telefonu oraz pola zgody s¹ walidowane. Po klikniêciu przycisku z funkcj¹ dodania ankiety, poprawnie wype³niona ankieta zostaje dodana do spisu wszystkich ankiet.
+-  lista wszystkich ankiet jest dostêpna po wybraniu odpowiedniej opcji, która pozwala na wyœwietlenie wszystkich ankiet.
+- istnieje mo¿liwoœæ przejrzenia wybranej ankiety po wybraniu jej z listy ankiet poprzez naciœniêcie linii zawieraj¹c¹ dan¹ ankietê.

@@ -1,0 +1,17 @@
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\bin\Debug\netstandard2.0\Water.deps.json
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\bin\Debug\netstandard2.0\Water.dll
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\bin\Debug\netstandard2.0\Water.pdb
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Water.csprojAssemblyReference.cache
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Water.csproj.CoreCompileInputs.cache
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Water.AssemblyInfoInputs.cache
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Water.AssemblyInfo.cs
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Water.dll
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Water.pdb
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Views\NewUserPage.xaml.g.cs
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Views\UserDetailPage.xaml.g.cs
+C:\Users\Magda\Desktop\szkola\apkiBazodanowe\Water\Water\Water\obj\Debug\netstandard2.0\Views\UsersPage.xaml.g.cs

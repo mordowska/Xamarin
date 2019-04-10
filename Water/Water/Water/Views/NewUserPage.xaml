@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Water.Views.NewUserPage"
+             Title="New User">
+    
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="1">
+        <StackLayout Spacing="20" Padding="15" Orientation="Vertical">
+            <Label FontSize="22">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text = "Welcome in my app, please fill all fields" />
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+                <Label FontSize="22">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text = "Name: " />
+                            <Span BindingContext="{x:Reference Name=Name}" Text="{Binding Path=Text, Mode=OneWay}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="22">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text = "PhoneNumber: " />
+                            <Span BindingContext="{x:Reference Name=PhoneNumber}" Text="{Binding Path=Text, Mode=OneWay}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="22">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text = "Email: " />
+                            <Span BindingContext="{x:Reference Name=Email}" Text="{Binding Path=Text, Mode=OneWay}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="22">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text = "Water balance: " />
+                            <Span BindingContext="{x:Reference Name=WaterBalance}" Text="{Binding Path=Text, Mode=OneWay}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="22">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text = "Consultation: " />
+                            <Span BindingContext="{x:Reference Name=Consultation}" Text="{Binding Path=Text, Mode=OneWay}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+                <StackLayout Spacing="20" Padding="15">
+
+                <Label Text="Name" FontSize="Medium" />
+                <Entry x:Name="Name" Text="{Binding Name, Mode=TwoWay}" FontSize="Small"/>
+                <Label TextColor="Red" Text="{Binding NameError}"/>
+
+                <Label Text="Phone number" FontSize="Medium" />
+                <Entry x:Name="PhoneNumber" Text="{Binding Phone, Mode=TwoWay}" FontSize="Small"/>
+                <Label TextColor="Red" Text="{Binding PhoneError}"/>
+
+                <Label Text="Email" FontSize="Medium" />
+                <Entry x:Name="Email" Text="{Binding Email, Mode=TwoWay}" FontSize="Small"/>
+                <Label TextColor="Red" Text="{Binding EmailError}"/>
+
+                <Label Text="Water balance" FontSize="Medium" />
+                <Entry x:Name="WaterBalance" Text="{Binding Water, Mode=TwoWay}" FontSize="Small"/>
+                <Label TextColor="Red" Text="{Binding WaterError}"/>
+
+                <Label Text="Consultation" FontSize="Medium" />
+                <Entry x:Name="Consultation" Text="{Binding Consultation, Mode=TwoWay}" FontSize="Small"/>
+                <Label TextColor="Red" Text="{Binding ConsultationError}"/>
+
+                </StackLayout>
+            <Button Text="Create" Command="{Binding NewUserCommand}"/>
+
+
+            </StackLayout>
+            </ScrollView>
+    </Grid>
+</ContentPage>
