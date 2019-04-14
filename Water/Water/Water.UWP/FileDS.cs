@@ -51,8 +51,8 @@ namespace Water.UWP
                 {
                     Id = lines[0],
                     Name = lines[1],
-                    PhoneNumber = lines[2],
-                    Email = lines[3],
+                    Email = lines[2],
+                    PhoneNumber = lines[3],
                     WaterBalance = lines[4],
                     Consultation = lines[5]
                 };
